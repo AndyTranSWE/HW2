@@ -1,0 +1,86 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+header {
+	color: white;
+	background-color: #000033;
+	background-image: url(sunset.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+span.resort {
+	color: #647DA8;
+	font-weight: bold;
+}
+body {
+	background-image: url(ptrbackground.jpg), linear-gradient(to bottom, #00569f, #00569f);
+	background-repeat: repeat-x, repeat;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper {
+	background-image: linear-gradient(90deg, #9cc6e0 190px, white 190px);
+	width: 80%;
+	min-width: 600px;
+	margin: auto;
+}
+#content {
+	margin-left: 200px;
+	padding-left: 23px;
+	padding-right: 25px;
+	padding-top: 1px;
+	box-sizing: border-box;
+}
+#content img {
+	float: left;
+	padding-right: 25px;
+}
+#content ul {
+	list-style-image: url(marker.gif);
+	list-style-type: none;
+	list-style-position: inside;
+}
+nav {
+	float: left;
+	width: 200px;
+}
+nav ul {
+	list-style-type: none;
+	font-size: 1.2em;
+}
+nav a {
+	color: #000033;
+	margin-left: -20px;
+	text-decoration: none;
+	font-weight: bold;
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+}
+h2 {
+	color: #3399CC;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+	font-size: 90%;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	margin-left: 200px;
+	padding-top: 40px;
+	padding-left: 20px;
+	font-style: italic;
+	font-size: small;
+	padding-bottom: 20px;
+}
+
